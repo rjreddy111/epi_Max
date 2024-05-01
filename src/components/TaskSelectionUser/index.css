@@ -1,0 +1,84 @@
+.list-style {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #dfeef2;
+    border-radius: 10px;
+}
+.taskdetails {
+    width: 25%;
+}
+.buttonStart {
+    background-color: orange;
+    border: none;
+    width:80px;
+    height: 30px;
+    border-radius: 6px;
+    margin-right: 5px;
+}
+
+.buttonEnd {
+    background-color: red;
+    border: none;
+    width:80px;
+    height: 30px;
+    border-radius: 6px;
+    margin-right: 5px;
+
+}
+.completedButton {
+    background-color: aquamarine;
+    border: none;
+    width:80px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 6px;
+}
+
+.statusCheck {
+    width: 100px;
+    height: 38px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.status-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.started {
+    color: blue;
+}
+
+.End {color: red;}
+.Completed {
+    color: aquamarine;
+}
+.pending {
+    color: blue;
+}
+
+@media screen {
+    
+}
+.buttons-container {
+
+}
+
+
+
+@keyframes fontSizeChange {
+    0% { font-size: 16px; }
+    50% { font-size: 20px; }
+    100% { font-size: 16px; }
+}
+
+.animated-font-size {
+    animation: fontSizeChange 1s ease-in-out;
+}
